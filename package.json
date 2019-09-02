@@ -2,6 +2,7 @@
     "author": "Keijiro Takahashi",
     "dependencies": { },
     "description": "HAP video player",
+    "displayName": "KlakHAP",
     "keywords": [ "unity" ],
     "license": "SEE LICENSE IN LICENSE",
     "name": "jp.keijiro.klak.hap",
