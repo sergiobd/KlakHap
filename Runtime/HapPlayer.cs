@@ -11,8 +11,8 @@ namespace Klak.Hap
 
         public enum PathMode { StreamingAssets, LocalFileSystem }
 
-        [SerializeField] PathMode _pathMode = PathMode.StreamingAssets;
-        [SerializeField] string _filePath = "";
+        [SerializeField] public PathMode _pathMode = PathMode.StreamingAssets;
+        [SerializeField] public string _filePath = "";
 
         [SerializeField] float _time = 0;
         [SerializeField, Range(-10, 10)] float _speed = 1;
